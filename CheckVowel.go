@@ -4,7 +4,7 @@ import "fmt"
 
 func CheckVowel(s string) bool {
 	for _, ch := range s {
-		// fmt.Printf("type of %x is %T", ch, ch)
+		fmt.Printf("type of %x is %T", ch, ch)
 		if isLowerCaseVowel(ch) || isUpperCaseVowel(ch) {
 			return true
 		}
