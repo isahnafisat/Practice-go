@@ -3,10 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	var age int
+	//var age int
 
-	fmt.Print("Enter your age: ")
-	fmt.Scan(&age)
+	//	fmt.Print("Enter your age: ")
+	//	fmt.Scan(&age)
 
-	fmt.Println(age)
+	//	fmt.Println(age)
+	for _, ch := range "Hello" {
+		fmt.Println(ch)
+	}
 }
